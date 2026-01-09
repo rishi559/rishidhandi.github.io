@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishi Dhandi - Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    .gradient-text {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      background-color: #e5e7eb;
+      border-radius: 9999px;
+      font-size: 0.875rem;
+      color: #374151;
+    }
+    
+    .hobby-icon {
+      font-size: 3rem;
+      color: #4682b4;
+    }
+
+    .profile-img {
+      transition: transform 0.3s ease;
+    }
+
+    .profile-img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="fixed w-full bg-white/80 backdrop-blur-sm shadow-sm z-50">
+    <div class="container mx-auto px-4 py-3">
+      <div class="flex justify-between items-center">
+        <div class="hidden md:flex space-x-6">
+          <a href="#home" class="hover:text-[#4682b4] transition">Home</a>
+          <a href="#education-experience" class="hover:text-[#4682b4] transition">Education & Experience</a>
+          <a href="#projects" class="hover:text-[#4682b4] transition">Projects</a>
+          <a href="#interests" class="hover:text-[#4682b4] transition">Interests</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex items-center pt-12">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-col md:flex-row items-center justify-between">
+        <div class="md:w-1/2 text-center md:text-left">
+          <h1 class="text-6xl md:text-8xl font-bold mb-4 gradient-text">
+            Rishi Dhandi
+          </h1>
+          <h1 class="text-3xl md:text-4xl mb-6 text-gray-700">
+            Data Analyst
+          </h1>
+          <p class="text-xl mb-8 text-gray-600">
+            Turning data into decisions that drive measurable business growth with 5+ years of experience in marketing analytics
+          </p>
+          <div class="flex justify-center md:justify-start space-x-6">
+            <a href="https://www.linkedin.com/in/rishi-dhandi" target="_blank" class="text-5xl hover:text-[#4682b4]">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/rishidhandi" target="_blank" class="text-5xl hover:text-[#4682b4]">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="/cdn-cgi/l/email-protection#03476b626d676a716a706b6a36363a43646e626a6f2d606c6e" class="text-5xl hover:text-[#4682b4]">
+              <i class="bi bi-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/2 mt-10 md:mt-0">
+          <img src="assets/images/profile.jpg" alt="Profile" class="w-96 h-96 mx-auto rounded-full shadow-lg object-cover profile-img border-2 border-[#4682b4]" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Experience Section -->
+  <section id="education-experience" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <!-- Education Column -->
+        <div>
+          <h3 class="text-2xl font-semibold mb-6">Education</h3>
+          <div class="space-y-8">
+            <div class="p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+              <h4 class="text-xl font-semibold">
+                Master of Science in Engineering Management
+              </h4>
+              <p class="text-gray-600">
+                St. Cloud State University, Minnesota | 2023 - 2024
+              </p>
+              <p class="mt-2">Focus: AI and Business Analytics</p>
+            </div>
+            <div class="p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+              <h4 class="text-xl font-semibold">
+                Bachelor of Engineering in Electronics
+              </h4>
+              <p class="text-gray-600">Shri Vaishnav Institute of Technology, India | 2017</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Column -->
+        <div>
+          <h3 class="text-2xl font-semibold mb-6">Experience</h3>
+          <div class="space-y-8">
+            <div class="p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+              <h4 class="text-xl font-semibold">Sr. Data Analyst (Marketing & Growth)</h4>
+              <p class="text-gray-600">
+                Jazwares | Feb 2024 - Sep 2025
+              </p>
+            </div>
+            <div class="p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+              <h4 class="text-xl font-semibold">Data Analyst (DTC & CRM)</h4>
+              <p class="text-gray-600">
+                Jazwares | April 2024 - Jan 2025
+              </p>
+            </div>
+            <div class="p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+              <h4 class="text-xl font-semibold">Sr. Data Analyst</h4>
+              <p class="text-gray-600">
+                Alliant Infotech | Jul 2020 - Jul 2021
+              </p>
+            </div>
+            <div class="p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+              <h4 class="text-xl font-semibold">Data Analyst</h4>
+              <p class="text-gray-600">
+                Alliant Infotech | Jan 2018 - Jun 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20">
+    <div class="container mx-auto px-4">
+      <h1 class="text-3xl font-bold mb-12 text-center gradient-text">
+        Projects
+      </h1>
+
+      <!-- Customer Analytics -->
+      <div class="mb-12">
+        <h3 class="text-2xl font-semibold mb-6 text-[#4682b4]">
+          <i class="bi bi-people"></i> Customer Analytics
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-white p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+            <h4 class="text-xl font-semibold">Customer Segmentation Engine</h4>
+            <p class="mt-2">
+              Built comprehensive RFM-based segmentation framework using Python to identify high-value, at-risk, and growth-potential customers across 100K+ user base.
+            </p>
+            <div class="mt-4 bg-blue-50 p-3 rounded-lg">
+              <span class="font-semibold text-[#4682b4]">Impact:</span> 12% improvement in 60-day repeat purchase rate
+            </div>
+            <div class="mt-4 flex flex-wrap items-center gap-2">
+              <span class="badge">Python</span>
+              <span class="badge">pandas</span>
+              <span class="badge">SQL</span>
+              <span class="badge">Snowflake</span>
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+            <h4 class="text-xl font-semibold">Market Basket Analysis</h4>
+            <p class="mt-2">
+              Conducted MBA using transactional data to identify high-affinity product combinations and cross-sell opportunities for merchandising strategies.
+            </p>
+            <div class="mt-4 bg-blue-50 p-3 rounded-lg">
+              <span class="font-semibold text-[#4682b4]">Impact:</span> 15% increase in customer product breadth
+            </div>
+            <div class="mt-4 flex flex-wrap items-center gap-2">
+              <span class="badge">Python</span>
+              <span class="badge">SQL</span>
+              <span class="badge">Association Rules</span>
+              <span class="badge">Tableau</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Marketing Optimization -->
+      <div class="mb-12">
+        <h3 class="text-2xl font-semibold mb-6 text-[#4682b4]">
+          <i class="bi bi-graph-up"></i> Marketing Optimization
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-white p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+            <h4 class="text-xl font-semibold">A/B Testing Framework</h4>
+            <p class="mt-2">
+              Designed and analyzed portfolio of experiments across pricing and on-site experience, translating results into optimization recommendations.
+            </p>
+            <div class="mt-4 bg-blue-50 p-3 rounded-lg">
+              <span class="font-semibold text-[#4682b4]">Impact:</span> 9% conversion rate lift, 5% AOV increase
+            </div>
+            <div class="mt-4 flex flex-wrap items-center gap-2">
+              <span class="badge">SQL</span>
+              <span class="badge">Python</span>
+              <span class="badge">Statistics</span>
+              <span class="badge">Power BI</span>
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+            <h4 class="text-xl font-semibold">Email Marketing Optimization</h4>
+            <p class="mt-2">
+              Analyzed and optimized automated lifecycle flows in Klaviyo through cohort analysis and timing optimization.
+            </p>
+            <div class="mt-4 bg-blue-50 p-3 rounded-lg">
+              <span class="font-semibold text-[#4682b4]">Impact:</span> 17% increase in lifecycle marketing revenue
+            </div>
+            <div class="mt-4 flex flex-wrap items-center gap-2">
+              <span class="badge">Klaviyo</span>
+              <span class="badge">SQL</span>
+              <span class="badge">Cohort Analysis</span>
+              <span class="badge">GA4</span>
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+            <h4 class="text-xl font-semibold">Paid Media Performance Analysis</h4>
+            <p class="mt-2">
+              Analyzed campaign performance across Google Ads, Meta, and TikTok to optimize budget allocation and improve marketing efficiency.
+            </p>
+            <div class="mt-4 bg-blue-50 p-3 rounded-lg">
+              <span class="font-semibold text-[#4682b4]">Impact:</span> 14% improvement in blended ROAS
+            </div>
+            <div class="mt-4 flex flex-wrap items-center gap-2">
+              <span class="badge">SQL</span>
+              <span class="badge">Power BI</span>
+              <span class="badge">GA4</span>
+              <span class="badge">Adobe Analytics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Infrastructure -->
+      <div>
+        <h3 class="text-2xl font-semibold mb-6 text-[#4682b4]">
+          <i class="bi bi-gear"></i> Data Infrastructure
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-white p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+            <h4 class="text-xl font-semibold">Executive Dashboard Suite</h4>
+            <p class="mt-2">
+              Designed and maintained executive-facing Power BI dashboards tracking growth and marketing metrics (CAC, ROAS, LTV, AOV).
+            </p>
+            <div class="mt-4 bg-blue-50 p-3 rounded-lg">
+              <span class="font-semibold text-[#4682b4]">Impact:</span> Enhanced data-driven decision making for VP-level stakeholders
+            </div>
+            <div class="mt-4 flex flex-wrap items-center gap-2">
+              <span class="badge">Power BI</span>
+              <span class="badge">DAX</span>
+              <span class="badge">SQL</span>
+              <span class="badge">Data Validation</span>
+            </div>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+            <h4 class="text-xl font-semibold">Reporting Automation Suite</h4>
+            <p class="mt-2">
+              Automated recurring operational and performance reports using Python, SQL, and Power Query, eliminating manual reporting work.
+            </p>
+            <div class="mt-4 bg-blue-50 p-3 rounded-lg">
+              <span class="font-semibold text-[#4682b4]">Impact:</span> Saved 100+ hours per month in manual reporting
+            </div>
+            <div class="mt-4 flex flex-wrap items-center gap-2">
+              <span class="badge">Python</span>
+              <span class="badge">SQL</span>
+              <span class="badge">Power Query</span>
+              <span class="badge">Excel VBA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interests Section -->
+  <section id="interests" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <h1 class="text-3xl font-bold mb-12 text-center gradient-text">
+        Areas of Expertise
+      </h1>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+        <div class="p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+          <i class="bi bi-graph-up-arrow hobby-icon"></i>
+          <h3 class="text-xl font-semibold mt-4">Marketing Analytics</h3>
+          <p class="mt-2">Customer segmentation and campaign optimization</p>
+        </div>
+        <div class="p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+          <i class="bi bi-arrow-repeat hobby-icon"></i>
+          <h3 class="text-xl font-semibold mt-4">Retention & Lifecycle</h3>
+          <p class="mt-2">Cohort analysis and churn prediction</p>
+        </div>
+        <div class="p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+          <i class="bi bi-bar-chart-line hobby-icon"></i>
+          <h3 class="text-xl font-semibold mt-4">Growth Analytics</h3>
+          <p class="mt-2">ROAS optimization and conversion analysis</p>
+        </div>
+        <div class="p-6 rounded-lg shadow-md border-2 border-[#4682b4]">
+          <i class="bi bi-tools hobby-icon"></i>
+          <h3 class="text-xl font-semibold mt-4">Data Infrastructure</h3>
+          <p class="mt-2">Dashboard development and automation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <div class="flex justify-center space-x-6 mb-4">
+        <a href="/cdn-cgi/l/email-protection#286c4049464c415a415b40411d1d11684f45494144064b4745" class="text-2xl hover:text-[#4682b4]">
+          <i class="bi bi-envelope"></i>
+        </a>
+        <a href="tel:+16126369580" class="text-2xl hover:text-[#4682b4]">
+          <i class="bi bi-telephone"></i>
+        </a>
+      </div>
+      <p class="text-gray-600">© 2025 Rishi Dhandi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", func
